@@ -16,4 +16,8 @@ A faster SELENIUM based batch downloading client for KissCartoon/KissAnime
 - Step 4: Watch out if the crawler gets blocked by captcha. (You'll be notified anyway.)
 - Step 5: Browse reddit while waiting for the links to be compiled and downloaded (todo).
 
+**Known Problems**
+- Uncatched TimeOutException(s)
+- Halting due to partially loaded pages
+
 
