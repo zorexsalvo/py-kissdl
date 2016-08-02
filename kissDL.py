@@ -1,4 +1,4 @@
-from header import *
+from main import *
 
 #todo cleanup code
 #todo make downloader script
