@@ -10,10 +10,10 @@ A faster SELENIUM based batch downloading client for KissCartoon/KissAnime
 - KissCartoon/KissAnime account
 
 **Setup/Usage**
- Step 1: Put 'header.py' and 'kissDL.py' in the same directory.
- Step 2: Open and edit 'header.py' using a text editor. (Change values if necessary!)
- Step 3: Run 'kissDL.py'
- Step 4: Watch out if the crawler gets blocked by captcha. (You'll be notified anyway.)
- Step 5: Browse reddit while waiting for the links to be compiled and downloaded (todo).
+- Step 1: Put 'header.py' and 'kissDL.py' in the same directory.
+- Step 2: Open and edit 'header.py' using a text editor. (Change values if necessary!)
+- Step 3: Run 'kissDL.py'
+- Step 4: Watch out if the crawler gets blocked by captcha. (You'll be notified anyway.)
+- Step 5: Browse reddit while waiting for the links to be compiled and downloaded (todo).
 
 
