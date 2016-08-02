@@ -6,19 +6,19 @@ import time
 try:
     from bs4 import BeautifulSoup
 except ImportError:
-    pip.main(['install', BeautifulSoup])
+    pip.main(['install', 'BeautifulSoup'])
 
 try:
     from pySmartDL import SmartDL
 except ImportError:
-    pip.main(['install', pySmartDL])
+    pip.main(['install', 'pySmartDL'])
 
 try:
     from selenium import webdriver
     from selenium.webdriver.common.keys import Keys
-    from selenium.common.exceptions     import *
+    from selenium.common.exceptions import *
 except ImportError:
-    pip.main(['install', selenium])
+    pip.main(['install', 'selenium'])
 
 
 '''
@@ -27,7 +27,7 @@ except ImportError:
 USERNAME      = 'yourusernamehere'
 PASSWORD      = 'yourpasswordhere'
 
-DRIVER_PATH   = r"path of your chromedriver.exe here"
+DRIVER_PATH   = r"venv/selenium/webdriver/chrome/chromedriver"
 
 LOGIN_PAGE    = 'http://kisscartoon.me/Login'
 TARGET_PAGE   = 'http://kisscartoon.me/Cartoon/Rick-and-Morty'
