@@ -6,7 +6,7 @@ import time
 try:
     from bs4 import BeautifulSoup
 except ImportError:
-    pip.main(['install', 'BeautifulSoup'])
+    pip.main(['install', 'beautifulsoup4'])
 
 try:
     from pySmartDL import SmartDL
